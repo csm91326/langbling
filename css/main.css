@@ -1,0 +1,16 @@
+/*header*/
+.header{width: 100%; height: 100px; padding-top: 20px;}
+  .header h1.logo{width: 209px; float: left;}
+
+  .header .gnb{width: 667px; height: 100px; padding-top:20px;float: left;}
+  .header .gnb li{margin-left: 90px;float: left;}
+    .header .gnb li a:hover{color: #00bff3;}
+
+  .header .login-box{width: 124px; float: left;}
+    .header .login-box .login{margin:-5px 0 5px 0;}
+
+/*container*/
+.container{width: 100%;}
+
+/*footer*/
+.footer{width: 100%; height: 100px;}

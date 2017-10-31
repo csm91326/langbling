@@ -4,12 +4,10 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 
 
-/*@font-face{font-family:BMD;font-style:normal;font-weight:400;src:local('BMDOHYEON.ttf'),local('배달의민족 도현'),url(../font/font-BMDOHYEON-wallel.eot),url(../font/font-BMDOHYEON-wallel.eot?#iefix) format('embedded-opentype'),url(../font/font-BMDOHYEON-wallel.woff) format('woff')}*/
-/* Reset */
 
 html,body{width:100%;}
 html{overflow-y:scroll;font-size:10px}
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,form,fieldset,p,button{margin:0;padding:0}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,form,fieldset,p,button,header,nav,aside,.container,footer,.footer{margin:0;padding:0}
 body,h1,h2,h3,h4,input,button{font-size:18px;color:#fff;}
 body{background-color:#fff;*word-break:break-all;-ms-word-break:break-all; font-family:'Sans-serif', '배달의민족 도현', 'Noto Sans KR', 'Nanum Gothic', 'NanumGothic', 'Malgun Gothic', 'dotum', 'helvetica', 'sans-serif';text-align:left; }
 
