@@ -1,6 +1,13 @@
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,form,fieldset,p,button,header,nav,aside,footer,.header,.gnb, .login-box, .footer,a{margin:0; padding:0; font-size: 15px; box-sizing: border-box;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,form,fieldset,p,button,header,nav,aside,footer,.header,.gnb, .login-box, .footer,a{margin:0; padding:0; font-size: 12px; box-sizing: border-box;}
 .inner{width: 1000px; margin:0 auto;}
 .nav-link{color:#555;}
+
+
+
+/*definition of point-color-group*/
+.lang-green{color: #00f3a6;}
+.lang-skyblue{color: #00bff3;}
+
 
 
 /*definition of btn-group*/

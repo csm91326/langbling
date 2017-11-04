@@ -4,23 +4,65 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> <!--bootstrap cdn-->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="css/main.css">
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <title>계획하고, 경험하라! 즐거운 여행수첩 랭블링</title>
+
+
+
+  <script>
+    $(function(){
+      $('.header .gnb li span').mouseover
+
+    });
+  </script>
 </head>
 <body>
   <!-- header start -->
   <div class="header">
     <div class="inner">
-          <h1 class="logo"><a href="#"><img src="img/h1-logo.png" alt="langbling"></a></h1>
+          <!-- <h1 class="logo"><a href="#"><img src="img/h1-logo.png" alt="langbling"></a></h1> -->
+          <h1  class="logo">
+            <a href="#">
+              <em class="lang-green">L</em>ANG
+              <em class="lang-skyblue">B</em>LING
+            </a>
+          </h1>
 
           <!-- gnb start -->
           <ul class="gnb">
-            <li><a href="#">MINE</a></li>
-            <li><a href="#">OTHERS</a></li>
-            <li><a href="#">INFO</a></li>
-            <li><a href="#">TRAVELOG</a></li>
+            <li>
+              <span class="icon fa-angle-down">PLANS</span>
+              <ul>
+                <li><a href="#">나의 일정</a></li>
+                <li><a href="#">인기 일정</a></li>
+              </ul>
+            </li>
+            <li>
+              <span class="icon fa-angle-down">FRIENDS</span>
+              <ul>
+                <li><a href="#">여행 메이트</a></li>
+                <li><a href="#">1:1 대화창</a></li>
+              </ul>
+            </li>
+            <li>
+              <span class="icon fa-angle-down">INFO</span>
+              <ul>
+                <li><a href="#">나라별 정보</a></li>
+                <li><a href="#">숙박 정보</a></li>
+                <li><a href="#">맛집 정보</a></li>
+              </ul>
+            </li>
+            <li>
+              <span class="icon fa-angle-down">TRAVELOG</span>
+            </li>
           </ul>
           <!-- gnb end -->
 
@@ -37,13 +79,19 @@
 
   <!-- header start -->
   <div class="container">
+      <div class="row">
+        <div id="bg" class="col-sm-4">
+          당신곁의 여행 메이트, 랭블링!
+        </div>
+        <div id="overay"></div>
+      </div>
 
   </div>
   <!-- header end -->
 
   <!-- header start -->
   <div class="footer">
-
+    Copyright (c) 2017 Copyright langbling All Rights Reserved.
   </div>
   <!-- header end -->
 
